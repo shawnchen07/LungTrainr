@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>LTr</title>
+<meta charset="UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="./lungtrainr.js"></script>
+</head>
+<body>
+
+<select id="base">
+	<option value="45">0:45</option>
+	<option value="60">1:00</option>
+	<option value="75">1:15</option>
+	<option value="90" selected="selected">1:30</option>
+	<option value="105">1:45</option>
+	<option value="120">2:00</option>
+</select>
+<select id="decr">
+	<option value="0">-0 sec.</option>
+	<option value="5">-5 sec.</option>
+	<option value="10" selected="selected">-10 sec.</option>
+	<option value="15">-15 sec.</option>
+	<option value="20">-20 sec.</option>
+	<option value="25">-25 sec.</option>
+	<option value="30">-30 sec.</option>
+</select>
+<select id="set">
+	<option value="5">5 sets</option>
+	<option value="6">6 sets</option>
+	<option value="7">7 sets</option>
+	<option value="8">8 sets</option>
+	<option value="9">9 sets</option>
+	<option value="10" selected="selected">10 sets</option>
+	<option value="11">11 sets</option>
+	<option value="12">12 sets</option>
+	<option value="13">13 sets</option>
+	<option value="14">14 sets</option>
+	<option value="15">15 sets</option>
+</select>
+<button onclick="javascript:processBase()">Submit</button>	
+<p id="output"></p>
+	
+</body>
+</html>
